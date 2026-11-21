@@ -1,0 +1,25 @@
+﻿# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Database backups and session files
+*.sql
+mysql_session.txt
+backend/isrgrootx1.pem
+
+# Build files
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
